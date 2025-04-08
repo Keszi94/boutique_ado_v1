@@ -8,3 +8,7 @@ os.environ.setdefault(
     'sk_test_51R9ARdRtqcHopRdxSyPYeHRxFC8tojExJZHXq2sH7iZuAWSx5'
     'Zzx4ACR8JDUtHal81sUDpjGCnWKylbCYVko5OQd0082M3r5NF'
     )
+os.environ.setdefault(
+    'STRIPE_WH_SECRET',
+    'whsec_45c4d190cc2c154d1c1a329ff0beee91055066a3dfb23b1fdfc226f35b0d49fd'
+    )
