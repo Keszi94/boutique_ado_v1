@@ -12,3 +12,4 @@ os.environ.setdefault(
     'STRIPE_WH_SECRET',
     'whsec_45c4d190cc2c154d1c1a329ff0beee91055066a3dfb23b1fdfc226f35b0d49fd'
     )
+os.environ.setdefault('DEVELOPMENT', '1')
