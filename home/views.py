@@ -15,11 +15,15 @@ def index(request):
 
 
 def email_test(request):
+    from_email = settings.DEFAULT_FROM_EMAIL
+    print("Sending email from:", from_email) 
+
     send_mail(
         'Test Subject',
         'This is a test email from the site.',
-        settings.DEFAULT_FROM_EMAIL,
-        ['ekiskarpati.dev@gmail.com'],  # 👈 change to your Gmail
+        from_email,
+        ['ekiskarpati.dev@gmail.com'],
         fail_silently=False,
     )
     return HttpResponse("Email sent!")
+
